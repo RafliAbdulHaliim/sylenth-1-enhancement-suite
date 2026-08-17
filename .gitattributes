@@ -1,0 +1,10 @@
+# Language detection rules
+*.map linguist-generated
+
+*.json linguist-detectable=false
+
+build/* linguist-vendored
+*.sh text eol=lf
+src/**/*.ts linguist-detectable
+docs/**/*.html linguist-vendored
+docs/index.html linguist-vendored
